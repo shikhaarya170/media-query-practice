@@ -1,0 +1,135 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#top{
+    background-color: grey;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:2rem 4rem;
+    color: white;
+
+}
+#email{
+    display: flex;
+}
+
+#email a{
+text-decoration: none;
+margin: 0 1rem;
+color:coral;
+
+}
+
+#icon a{
+    color: coral;
+}
+
+.picture{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.paragraph{
+    border: 1px solid #000;
+    background-color: papayawhip;
+    padding: 0 4rem;
+    justify-content: space-between;
+    align-items: center;
+    height: 13vh;
+    display: flex;
+    
+}
+
+.paragraph a{
+    color:black;
+    display: flex;
+    text-decoration: none;
+
+}
+
+.paragraph ul{
+    list-style: none;
+    display: flex;
+    border: 20rem ;
+    align-items: center;
+}
+
+.picture{
+    width: 100px;
+    
+}
+
+.picture img {
+    width: 200%;
+}
+.unorder li a{
+    margin: 0 1.5rem;
+}
+
+.get{
+    background-color: orange;
+    padding: 1rem;
+    
+
+} 
+.span li a :hover{                                                                                     1
+    background-color: aqua;
+    color: chartreuse;
+}
+
+.hero{
+    background-image: url(banner-img.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 70vh;
+}
+.hero h1{
+    font-size: 3rem;
+    margin-bottom: 0.5rem; 
+}
+.hero h3{
+    font-size: 1.5rem;
+     margin-bottom: 2rem; 
+}
+.hero a{
+    color: #fff;
+    background-color: orange;
+    padding: 1rem 3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    justify-content: space-between;
+}
+
+.heroine{
+    display: flex;
+    margin: 5rem 5rem;
+    padding: 2rem 2 rem;
+}
+
+.sidehero{
+    border: 1px solid black;
+    margin-top: 5px;
+    text-align: left;
+    }
+
+.photo{
+    margin-left: 30rem;
+    padding: 
+}
